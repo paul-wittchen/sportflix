@@ -1,0 +1,42 @@
+@import './vars'; 
+
+.header {
+    text-align: center;
+}
+
+.headerLogo {
+    height: 200px;
+    text-align: center;
+    position: sticky;
+    background-color: $main-color;
+    margin-bottom: -40px;
+}
+
+.jumbotron {
+    background-color: $main-color;
+    font-family: $title-font;
+
+    .jumboTitle {
+        font-size: 24px;
+        color: #777777;
+    }
+    .jumboTitleTyped {
+        font-size: 48px;
+        color: #777777;
+
+    }
+    .jumboDesc{
+        font-size: 16px;
+        font-weight: 300;
+        color: $second-color;
+    }
+    .jumboLogo {
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+    }
+}
+
+.leagues {
+    margin-top: 40px;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300;600&display=swap');
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 700;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff) format('woff')
+}
+
+$title-font: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+
+$main-color: #141414 !important;
+$second-color: #4e4e4e !important;

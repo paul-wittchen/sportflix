@@ -1,0 +1,28 @@
+@import './vars'; 
+
+.leagueContainer {
+    margin: 0px 48px;
+    padding-top: 40px;
+    min-height: 260px;
+
+    .leagueTitle {
+        line-height: 1.25vw;
+        font-size: 24px;
+        color: #e5e5e5;
+        font-family: $title-font;
+        font-weight: 700;
+        margin-bottom: 0px;
+        margin-left: -16px;
+    }
+
+    .fas {
+        cursor: pointer;
+        transition: .5s;
+        float: right;
+        margin-left: 32px;
+        margin-right: -16px;
+        &:hover {
+            color: #e5e5e5;
+        }
+    }
+}

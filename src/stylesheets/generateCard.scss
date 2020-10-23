@@ -1,0 +1,93 @@
+@import './vars'; 
+
+.card {
+    margin: 16px 0px;
+    border: none !important;
+    background-color: transparent !important;
+    cursor: pointer;
+    transition: .8s;
+
+
+    &:hover {
+        transform: scale(1.3);
+        z-index: 1;
+    }
+}
+
+.bg {
+    opacity: 0.2;
+}
+
+.modal-body {
+    background-color: $main-color;
+    padding: 0px !important;
+
+    .modalImage {
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .modalTitle {
+        color: #e5e5e5;
+        text-align: center;
+        font-size: 32px;
+    }
+    .modalRound { 
+        font-size: 14px;
+        color: #4e4e4e;
+        text-align: center;
+        margin-top: -16px;
+    }
+    .modalDate {
+        margin: 16px 0px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: #e5e5e5;
+    }
+    .modalTime {
+        margin: 16px 0px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: #e5e5e5;
+    }
+    .modalLinks {
+        margin-top: 40px;
+        text-align: center;
+        .modalLinksDesc {
+            margin-bottom: 4px;
+            color: #4e4e4e;
+        }
+        .modalActions {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+        }
+    }
+    .modalBtnContainer {
+        text-align: center;
+        margin-top: 32px;
+        .modalClose {
+            border: 1px solid #4e4e4e;
+            width: 80%;
+            padding: 8px 24px;
+            background-color: $main-color;
+            transition: .5s;
+            color: #4e4e4e;
+            margin-bottom: 16px;
+        }
+    }
+
+    .modalMatchesContainer {
+        text-align: center !important;
+
+        .modalLastMatchesTitle {
+            margin-top: 16px;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: center;
+            color: #e5e5e5;
+        }
+    }
+}
