@@ -7,11 +7,11 @@ export default class CardModal extends Component {
 
     dateCondition = () => {
         var today = new Date();
-        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        var date = today.getFullYear() + '-' + (today.getMonth()+1) + '-' + today.getDate();
         if (this.props.date === date) {
             return(
                 <Card.Text className='modalDate'>
-                    <i className="far fa-calendar-alt"></i> today
+                    <i className="far fa-calendar-alt"></i> Today
                 </Card.Text>
             )
         } else {
@@ -20,7 +20,6 @@ export default class CardModal extends Component {
                     <i className="far fa-calendar-alt"></i> {this.props.date.slice(8,10)}.{this.props.date.slice(5,7)}.{this.props.date.slice(0,4)}
                 </Card.Text>
             )
-            
         }
     }
 
