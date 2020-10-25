@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://paul-wittchen.github.io/sportflix/",
   "dependencies": {
-    "@barba/core": "^2.9.7",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@testing-library/jest-dom": "^4.2.4",
