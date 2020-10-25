@@ -4,9 +4,6 @@ import HomeTeamMatches from './homeTeamMatches';
 import AwayTeamMatches from './awayTeamMatches';
 
 export default class CardModal extends Component {
-    constructor(props) {
-        super(props)
-    }
 
     dateCondition = () => {
         var today = new Date();
