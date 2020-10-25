@@ -4,6 +4,29 @@ import HomeTeamMatches from './homeTeamMatches';
 import AwayTeamMatches from './awayTeamMatches';
 
 export default class CardModal extends Component {
+    constructor(props) {
+        super(props)
+    }
+
+    dateCondition = () => {
+        var today = new Date();
+        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        if (this.props.date === date) {
+            return(
+                <Card.Text className='modalDate'>
+                    <i className="far fa-calendar-alt"></i> today
+                </Card.Text>
+            )
+        } else {
+            return(
+                <Card.Text className='modalDate'>
+                    <i className="far fa-calendar-alt"></i> {this.props.date.slice(8,10)}.{this.props.date.slice(5,7)}.{this.props.date.slice(0,4)}
+                </Card.Text>
+            )
+            
+        }
+    }
+
     render() {
         return(
             <Modal size='lg' show={this.props.open} onHide={this.props.closeModal} key={this.props.homeTeamId}>
@@ -13,9 +36,7 @@ export default class CardModal extends Component {
                     <p className='modalRound'>Matchday: {this.props.round}</p>
                     <Row>
                         <Col>
-                            <Card.Text className='modalDate'>
-                                <i className="far fa-calendar-alt"></i> {this.props.date.slice(8,10)}.{this.props.date.slice(5,7)}.{this.props.date.slice(0,4)}
-                            </Card.Text>
+                            {this.dateCondition()}
                         </Col>
                         <Col>
                             <Card.Text className='modalTime'>                            
