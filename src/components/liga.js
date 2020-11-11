@@ -35,7 +35,9 @@ export default class Liga extends Component {
             )
         } else {
             if (this.state.data === null) {
-                return(<></>)
+                return(
+                    <></>
+                )
             } else {
                 if (this.state.scroll === 1) {
                     return(
