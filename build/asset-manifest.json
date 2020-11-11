@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.359f5057.chunk.css",
+    "main.js": "/static/js/main.2456ebd5.chunk.js",
+    "main.js.map": "/static/js/main.2456ebd5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f6f1ccde.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f6f1ccde.js.map",
+    "static/css/2.2a86faee.chunk.css": "/static/css/2.2a86faee.chunk.css",
+    "static/js/2.522c74cf.chunk.js": "/static/js/2.522c74cf.chunk.js",
+    "static/js/2.522c74cf.chunk.js.map": "/static/js/2.522c74cf.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ee34c92b30ff09d043e5d38826afaa43.js": "/precache-manifest.ee34c92b30ff09d043e5d38826afaa43.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.2a86faee.chunk.css.map": "/static/css/2.2a86faee.chunk.css.map",
+    "static/css/main.359f5057.chunk.css.map": "/static/css/main.359f5057.chunk.css.map",
+    "static/js/2.522c74cf.chunk.js.LICENSE.txt": "/static/js/2.522c74cf.chunk.js.LICENSE.txt",
+    "static/media/3bl.png": "/static/media/3bl.9d28ea7d.png",
+    "static/media/bl.png": "/static/media/bl.b23007f9.png",
+    "static/media/cl.png": "/static/media/cl.6b0b0cf9.png",
+    "static/media/ere.png": "/static/media/ere.47709a6e.png",
+    "static/media/lig.png": "/static/media/lig.a645a71d.png",
+    "static/media/ligue1.png": "/static/media/ligue1.031f015e.png",
+    "static/media/mls.png": "/static/media/mls.f9679dc3.png",
+    "static/media/nfl.png": "/static/media/nfl.dcf00a7e.png",
+    "static/media/sportflix-logo.png": "/static/media/sportflix-logo.431edcbf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6f1ccde.js",
+    "static/css/2.2a86faee.chunk.css",
+    "static/js/2.522c74cf.chunk.js",
+    "static/css/main.359f5057.chunk.css",
+    "static/js/main.2456ebd5.chunk.js"
+  ]
+}

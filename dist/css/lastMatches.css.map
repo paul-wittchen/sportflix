@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACL,UAAU,EAAE,iBAAiB;CAChC;;AAED,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,KAAK;CACf;;AAED,AAAA,OAAO,CAAC;EACJ,KAAK,EAAE,MAAM;CAChB;;AAED,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,GAAG;CACb",
-    "sources": [
-        "../../src/stylesheets/lastMatches.scss"
-    ],
-    "names": [],
-    "file": "lastMatches.css"
-}
